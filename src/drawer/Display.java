@@ -7,6 +7,10 @@ import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
 import java.awt.image.BufferedImage;
 
+/**
+ * The Display class is a window displaying
+ * a BufferedImage used as a canvas for drawing the Graph.
+ */
 public class Display extends JFrame {
 
     private static final int HEIGHT = 900;
